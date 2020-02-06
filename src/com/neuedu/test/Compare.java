@@ -1,3 +1,5 @@
+package com.neuedu.test;
+
 import com.sun.org.apache.xpath.internal.objects.XObject;
 
 import java.sql.Time;
@@ -15,7 +17,7 @@ public class Compare {
             linklist在给首部添加元素时用的时间是：6
             arraylist在读取元素时用的时间是：2
             linklist在读取元素时用的时间是：3437
-        *
+        *hah
         * */
         List arraylist = new ArrayList();
         List linklist = new LinkedList();

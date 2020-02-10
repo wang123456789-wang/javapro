@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d75cef2e-ae8c-49b8-96bf-dc4946ef8a3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +151,7 @@
       <workItem from="1581333572038" duration="469000" />
       <workItem from="1581334053420" duration="671000" />
       <workItem from="1581334733442" duration="274000" />
+      <workItem from="1581335014947" duration="245000" />
     </task>
     <task id="LOCAL-00001" summary="123456">
       <created>1580974622105</created>
@@ -194,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580984773814</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="0210 19.45">
+      <created>1581335164268</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581335164268</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,17 +213,18 @@
     <MESSAGE value="111" />
     <MESSAGE value="18.14" />
     <MESSAGE value="18.25改变文件存放位置" />
-    <option name="LAST_COMMIT_MESSAGE" value="18.25改变文件存放位置" />
+    <MESSAGE value="0210 19.45" />
+    <option name="LAST_COMMIT_MESSAGE" value="0210 19.45" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="74" key="#Project_Structure" timestamp="1580976552737">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1580976552737" />
-    <state x="385" y="10" key="CommitChangelistDialog2" timestamp="1580984772626">
+    <state x="385" y="10" key="CommitChangelistDialog2" timestamp="1581335162733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="385" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580984772626" />
+    <state x="385" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581335162733" />
     <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1581122672197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

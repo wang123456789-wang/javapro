@@ -15,7 +15,7 @@ import java.util.Scanner;
 // 如果不存在，输出“没有此书，删除失败.”
 // 程序4 添加函数menu()，输出菜单项请选择你要进行的操作（请输入1-4中的任一个数字）：
 // 1：添加图书2：删除图书3：查找图书（根据用户名）4：退出当用户输入1-3时，分别调用输入、删除和查找函数，当用户输入4时程序结束。
-public class Mybook implements Serializable {
+public class Mybook implements java.io.Serializable {
     private  static final long serializable = 1L;
     File file = new File("d:\\books.tet");
 
@@ -25,7 +25,7 @@ public class Mybook implements Serializable {
     private String press;//出版社
     private String auter;
     private String bookISBN;//书的ISBN号
-    ArrayList<Mybook> books = new ArrayList<Mybook>(200);
+    List<Mybook> books = new ArrayList<Mybook>(200);
     public Mybook(){}
     Scanner input = new Scanner(System.in);
     public Mybook(String name, double price, String press, String auter, String bookISBN) {
@@ -57,7 +57,7 @@ public class Mybook implements Serializable {
         return bookISBN;
     }
 
-    public void inputData(ArrayList<Mybook> books,File file){            //从键盘上输入n本书的信息
+    public void inputData(ArrayList<Mybook> books){            //从键盘上输入n本书的信息
         System.out.println("输入要输入的书本个数");
         int num = input.nextInt();
         for ( int n=1 ; n<=num;n++){
@@ -72,9 +72,9 @@ public class Mybook implements Serializable {
             System.out.println("bookISBN");
             bookISBN = input.next();
             books.add(new Mybook(name,price,press,auter,bookISBN));
-            save();
+            save(books);
             System.out.println("当前拥有的图书信息为：");
-            print(books,file);
+            print(books);
         }
 
     }
@@ -83,10 +83,10 @@ public class Mybook implements Serializable {
         return "图书名是" + name + "价格是" + price +"出版社是"+press +"作者是"+auter+"书的ISBN号"+bookISBN;
     }
     //输出全部书的信息。
-    public void print(ArrayList<Mybook> books,File file){
+    public void print(ArrayList<Mybook> books){
         for(int i =0;i<books.size();i++){
             System.out.println(books.get(i));
-            read();
+            read(books);
         }
     }
 
@@ -138,7 +138,7 @@ public class Mybook implements Serializable {
             if(name2.equals(books.get(i).getName())){
                 books.remove(i);
                 System.out.println("删除图书成功，剩余图书信息为：");
-                print(books,file);
+                print(books);
                 flag1 = false;
                 break;
             }
@@ -150,7 +150,7 @@ public class Mybook implements Serializable {
     }
     // 程序4 添加函数menu()，输出菜单项请选择你要进行的操作（请输入1-4中的任一个数字）：
     // 1：添加图书2：删除图书3：查找图书（根据用户名）4：退出当用户 输入1-3时，分别调用输入、删除和查找函数，当用户输入4时程序结束。
-    public void menu(File file, ArrayList<Mybook> list){
+    public void menu( ArrayList<Mybook> books){
         boolean flag = true;
         while (flag){
             System.out.println("请选择你要进行的操作（请输入1-4中的任一个数字）：当用户输入1-3时，分别调用输入、删除和查找函数，当用户输入4时程序结束");
@@ -160,8 +160,8 @@ public class Mybook implements Serializable {
             switch (shu){
                 case 1:
                     System.out.println("1：添加图书");
-                    inputData(books,file);
-                    save();
+                    inputData(books);
+                    save(books);
                     break;
                 case 2:
                     System.out.println("2：删除图书");
@@ -173,8 +173,8 @@ public class Mybook implements Serializable {
                     break;
                 case 4:
                     System.out.println("4：输出图书信息");
-                    read();
-                    print(books,file);
+                    read(books);
+                    print(books);
                     break;
                 case 5:
                     System.out.println("5：退出当前用户");
@@ -190,7 +190,7 @@ public class Mybook implements Serializable {
 
         }
     }
-    public static void save(){
+    public static void save(ArrayList<Mybook> books){
         Mybook mybook = new Mybook();
         File file = new File("d:\\books.tet");
         OutputStream os = null;
@@ -198,7 +198,7 @@ public class Mybook implements Serializable {
         try {
             os = new FileOutputStream(file);
             oos = new ObjectOutputStream(os);
-            oos.writeObject(mybook.books);
+            oos.writeObject(books);
             oos.flush();
             os.flush();
         } catch (FileNotFoundException e) {
@@ -216,7 +216,7 @@ public class Mybook implements Serializable {
             }
         }
     }
-    public static void read(){
+    public static void read(ArrayList<Mybook> books){
         Mybook mybook = new Mybook();
         File file = new File("d:\\books.tet");
         InputStream is  = null;
@@ -225,7 +225,7 @@ public class Mybook implements Serializable {
         try {
             is = new FileInputStream(file);
             ois = new ObjectInputStream(is);
-            mybook.books = (ArrayList<Mybook>) ois.readObject();
+           books = (ArrayList<Mybook>) ois.readObject();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -244,16 +244,5 @@ public class Mybook implements Serializable {
         }
 
     }
-    public static void main(String[] args) {
-        Mybook mybook = new Mybook();
-        File file = new File("d:\\books.tet");
-        if(!file.exists()){
-            System.out.println("首次执行");
-            mybook.inputData(mybook.books,file);
-            save();
-        }else{
-            mybook.menu( file, mybook.books);
-            read();
-        }
-    }
+
 }

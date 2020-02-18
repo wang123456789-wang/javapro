@@ -11,17 +11,17 @@ public class TestMybookMain implements java.io.Serializable {
 
     public static void main(String[] args) {
         Mybook mybook = new Mybook();
-        File file = new File("d:/books.tet");
-        ArrayList<Mybook> books = new ArrayList<Mybook>(200);
+        Method method = new Method();
+        List<Mybook> books = new ArrayList<Mybook>();
+        File file = new File("d:/books.txt");
         if(!file.exists()){
             System.out.println("首次执行");
-            mybook.inputData(books);
-            mybook.save(books);
+            method.inputData(books);
+            method.save(books,file);
         }else{
-            mybook.read(books);
-            mybook.menu(books);
-
+            books =  method.read(file);
         }
+        method.menu(books,file);
 
 
 

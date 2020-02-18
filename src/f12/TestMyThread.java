@@ -16,8 +16,17 @@ public class TestMyThread {
 //        Thread t1 = new Thread(myThread3);
 //        t.start();
 //        t1.start();
-        MyThread3 t1 = new MyThread3();
-        MyThread3 t2 = new MyThread3();
+//        MyThread3 t1 = new MyThread3();
+//        MyThread3 t2 = new MyThread3();
+//        t1.start();
+//        t2.start();
+        MyThread3 myThread3 = new MyThread3();
+        Thread t1 =new Thread(()->{
+            myThread3.add();
+        });
+        Thread t2 = new Thread(()->{
+            myThread3.del();
+        });
         t1.start();
         t2.start();
 

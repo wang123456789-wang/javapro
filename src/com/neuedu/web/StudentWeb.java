@@ -14,7 +14,9 @@ public class StudentWeb {
         System.out.println("2-----------------增加");
         System.out.println("3-----------------修改");
         System.out.println("4-----------------删除");
-        System.out.println("其它---------------退出");
+        System.out.println("5--------------查询一个");
+        System.out.println("6------------------退出");
+        input();
     }
     public void input(){
         Scanner scanner = new Scanner(System.in);
@@ -22,17 +24,25 @@ public class StudentWeb {
             switch (i) {
                 case 1:
                     query();
+                    showmain();
                     break;
                 case 2:
                     add(scanner);
+                    showmain();
                     break;
                 case 3:
                     update(scanner);
+                    showmain();
                     break;
                 case 4:
                     del(scanner);
+                    showmain();
                     break;
                 case 5:
+                    queryOne(scanner);
+                    showmain();
+                    break;
+                case 6:
                    System.exit(0);
                     break;
             }
@@ -83,5 +93,11 @@ public class StudentWeb {
         studentService.del(id);
         // 显示列表
         query();
+    }
+    private void queryOne(Scanner scanner){
+        System.out.println("请输入要查询的id");
+        int id = scanner.nextInt();
+        // 调用服务层方法
+        studentService.queryOne(id);
     }
 }

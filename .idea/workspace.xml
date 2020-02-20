@@ -2,50 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d75cef2e-ae8c-49b8-96bf-dc4946ef8a3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/study.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/dao/IstudentDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/dao/StudentDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/f10/Method.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/poji/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/service/IstudentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/service/StudentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/test/MyTest1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/test/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/web/StudentWeb.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/f13/MyTest2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/javapro/f13/test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/neuedu/dao/IstudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/neuedu/dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/neuedu/f10/Method.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/neuedu/poji/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/neuedu/service/IstudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/neuedu/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/neuedu/test/MyTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/neuedu/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/neuedu/web/StudentWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/f13/MyTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/f13/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neuedu/dao/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neuedu/poji/dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neuedu/unti/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neuedu/unti/JdbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/f20/shiwu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javapro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javapro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javapro/com/neuedu/f10/Mybook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/f10/Mybook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javapro/com/neuedu/f10/TestMybookMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/f10/TestMybookMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javapro/com/neuedu/test/Compare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javapro/f13/Compare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javapro/f12/MyThread3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javapro/f12/MyThread3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javapro/f12/TestMyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javapro/f12/TestMyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javapro/f13/IfangfaTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javapro/f13/IfangfaTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javapro/f13/IfangfaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javapro/f13/IfangfaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/neuedu/f10/Mybook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neuedu/f10/Mybook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/neuedu/f10/TestMybookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neuedu/f10/TestMybookMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/neuedu/test/Compare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/f13/Compare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/f12/MyThread3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/f12/MyThread3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/f12/TestMyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/f12/TestMyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/f13/IfangfaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/f13/IfangfaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javapro/com/neuedu/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/dao/StudentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javapro/com/neuedu/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javapro/com/neuedu/test/MyTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/test/MyTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javapro/com/neuedu/web/StudentWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javapro/com/neuedu/web/StudentWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neuedu/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neuedu/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neuedu/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neuedu/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neuedu/test/MyTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neuedu/test/MyTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neuedu/web/StudentWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neuedu/web/StudentWeb.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="javapro" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,26 +68,13 @@
       <recent name="com.neuedu.f10" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyTest1">
+  <component name="RunManager" selected="Application.shiwu">
     <configuration name="MyTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.neuedu.test.MyTest1" />
       <module name="javapro" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.neuedu.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="f13.MyTest2" />
-      <module name="javapro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="f13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMybookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.neuedu.f10.TestMybookMain" />
+    <configuration name="maopao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neuedu.f5.shangke.maopao" />
       <module name="javapro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.neuedu.f10.*" />
+          <option name="PATTERN" value="com.neuedu.f5.shangke.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +108,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="f13.test" />
+    <configuration name="shiwu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="f20.shiwu" />
       <module name="javapro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="f13.*" />
+          <option name="PATTERN" value="f20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neuedu.dao.test" />
+      <module name="javapro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neuedu.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.shiwu" />
         <item itemvalue="Application.MyTest1" />
+        <item itemvalue="Application.maopao" />
+        <item itemvalue="Application.test (1)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.TestMybookMain" />
-        <item itemvalue="Application.MyTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +184,9 @@
       <workItem from="1581638592343" duration="3791000" />
       <workItem from="1581729878164" duration="10470000" />
       <workItem from="1581845612340" duration="6331000" />
-      <workItem from="1581991940694" duration="28270000" />
+      <workItem from="1581991940694" duration="28639000" />
+      <workItem from="1582071060076" duration="22783000" />
+      <workItem from="1582158781544" duration="15022000" />
     </task>
     <task id="LOCAL-00001" summary="123456">
       <created>1580974622105</created>
@@ -285,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581638924099</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="0218">
+      <created>1582037042111</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582037042111</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +287,8 @@
     <MESSAGE value="图书0210" />
     <MESSAGE value="0212" />
     <MESSAGE value="0213" />
-    <option name="LAST_COMMIT_MESSAGE" value="0213" />
+    <MESSAGE value="0218" />
+    <option name="LAST_COMMIT_MESSAGE" value="0218" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="74" width="814" height="723" key="#Intentions" timestamp="1581766209114">
@@ -311,61 +299,77 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1580976552737" />
-    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1582031470398">
+    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1582118101664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582031470398" />
+    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582118101664" />
     <state x="516" y="313" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1581433199935">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="516" y="313" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1581433199935" />
-    <state x="385" y="10" key="CommitChangelistDialog2" timestamp="1581638922755">
+    <state x="385" y="10" key="CommitChangelistDialog2" timestamp="1582037040339">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="385" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581638922755" />
-    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1582025488587">
+    <state x="385" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582037040339" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1582195752948">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582025488587" />
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582195752948" />
     <state x="643" y="308" width="273" height="207" key="Github.ShareDialog" timestamp="1580984111391">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="643" y="308" width="273" height="207" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1580984111391" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1582036941294">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom" timestamp="1582206514048">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582036941294" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1582036941294">
+    <state width="1493" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582206514048" />
+    <state width="1493" height="239" key="GridCell.Tab.0.center" timestamp="1582206514047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582036941294" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1582036941293">
+    <state width="1493" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582206514047" />
+    <state width="1493" height="239" key="GridCell.Tab.0.left" timestamp="1582206514047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582036941293" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1582036941294">
+    <state width="1493" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582206514047" />
+    <state width="1493" height="239" key="GridCell.Tab.0.right" timestamp="1582206514048">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582036941294" />
-    <state x="272" y="0" key="SettingsEditor" timestamp="1582025442067">
+    <state width="1493" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582206514048" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1582203097413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582025442067" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1581638934525">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582203097413" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1582203097412">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581638934525" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1581991942255">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582203097412" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1582203097412">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581991942255" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582203097412" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1582203097413">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582203097413" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1582195958368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582195958368" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1582037051613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582037051613" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1582158780594">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582158780594" />
     <state x="178" y="29" key="new project wizard" timestamp="1581122792919">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="29" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1581122792919" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581560121355">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582178539854">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581560121355" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582178539854" />
   </component>
 </project>

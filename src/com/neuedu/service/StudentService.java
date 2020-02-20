@@ -30,6 +30,6 @@ public class StudentService implements IstudentService{
 
     @Override
     public Student queryOne(int id) {
-        return null;
+        return studentDao.queryOne(id);
     }
 }
